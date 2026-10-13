@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Virtual environment
+venv/
+
+# Odoo runtime data
+filestore/
+logs/
+backups/
+
+# Environment files
+.env
+
+# Editors
+.idea/
+.vscode/
+*.swp
+
+# Node
+node_modules/
+
+# Independent addon Git repositories
+custom_addons/*
+!custom_addons/.gitkeep
